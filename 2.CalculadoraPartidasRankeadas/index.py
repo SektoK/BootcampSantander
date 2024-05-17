@@ -16,7 +16,7 @@ def calcularRank(vitorias, derrotas):
   elif saldo > 100:
     rank = 'Imortal'
 
-  print("- O Herói tem saldo de" , saldo ," e está no nível de" , rank)
+  print(f"- O Herói tem saldo de {saldo} e está no nível de {rank}.")
 
 VITORIA = int(input('Digite o numéro de Vitórias:'))
 DERROTA = int(input('Digite o numéro de Derrotas:'))
